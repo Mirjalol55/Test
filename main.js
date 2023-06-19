@@ -1,5 +1,5 @@
 const form = document.querySelector(".quiz-form")
-const correctArr = ["B","B","B","A","A"] 
+const correctArr = ["A","A","A","C","A"] 
 const result = document.querySelector('.result')
 form.addEventListener('submit', e =>{
     e.preventDefault()
@@ -23,4 +23,4 @@ form.addEventListener('submit', e =>{
     }
 },20)
 
-}) 
+    }) 
